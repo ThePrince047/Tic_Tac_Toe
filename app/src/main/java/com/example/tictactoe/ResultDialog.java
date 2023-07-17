@@ -43,7 +43,8 @@ public class ResultDialog extends Dialog{
         newmatch.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                mainActivity.newmatch();
+                dismiss();
             }
         });
     }
