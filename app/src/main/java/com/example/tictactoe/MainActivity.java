@@ -197,4 +197,7 @@ public class MainActivity extends AppCompatActivity {
         binding.i8.setImageResource(R.drawable.white_box);
         binding.i9.setImageResource(R.drawable.white_box);
     }
+    public void newmatch(){
+        startActivity(new Intent(this, Addplayers.class));
+    }
 }
